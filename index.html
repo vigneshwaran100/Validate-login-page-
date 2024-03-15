@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple Form Validate</h1>
+    <form onsubmit="return validate()" class="design">
+        <label>User_Name</label>
+        <input type="text" name="username" id="name" >
+        <span id="nerror" class="error"></span>
+        <label>Email</label>
+        <input type="email" name="email" id="email" >
+        <span id="merror" class="error"></span>
+        <input type="submit" value="Sign Up">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
